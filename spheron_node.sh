@@ -57,18 +57,12 @@ run_commands() {
 
 print_logo () {
     echo
-    show_orange "   ______  __    __       ___       __  .__   __. " && sleep 0.2
-    show_orange "  /      ||  |  |  |     /   \     |  | |  \ |  | " && sleep 0.2
-    show_orange " |  ,----'|  |__|  |    /  ^  \    |  | |   \|  | " && sleep 0.2
-    show_orange " |  |     |   __   |   /  /_\  \   |  | |  .    | " && sleep 0.2
-    show_orange " |   ----.|  |  |  |  /  _____  \  |  | |  |\   | " && sleep 0.2
-    show_orange "  \______||__|  |__| /__/     \__\ |__| |__| \__| " && sleep 0.2
-    show_orange " .______        ___           _______. _______    " && sleep 0.2
-    show_orange " |   _  \      /   \         /       ||   ____|   " && sleep 0.2
-    show_orange " |  |_)  |    /  ^  \       |   (---- |  |__      " && sleep 0.2
-    show_orange " |   _  <    /  /_\  \       \   \    |   __|     " && sleep 0.2
-    show_orange " |  |_)  |  /  _____  \  .----)   |   |  |____    " && sleep 0.2
-    show_orange " |______/  /__/     \__\ |_______/    |_______|   " && sleep 0.2
+    show_orange "      _______..______    __    __   _______ .______        ______   .__   __. " && sleep 0.2
+    show_orange "     /       ||   _  \  |  |  |  | |   ____||   _  \      /  __  \  |  \ |  | " && sleep 0.2
+    show_orange "    |   (---- |  |_)  | |  |__|  | |  |__   |  |_)  |    |  |  |  | |   \|  | " && sleep 0.2
+    show_orange "     \   \    |   ___/  |   __   | |   __|  |      /     |  |  |  | |  .    | " && sleep 0.2
+    show_orange " .----)   |   |  |      |  |  |  | |  |____ |  |\  \----.|   --'  | |  |\   | " && sleep 0.2
+    show_orange " |_______/    | _|      |__|  |__| |_______|| _|  ._____| \______/  |__| \__| " && sleep 0.2
     echo
     sleep 1
 }
